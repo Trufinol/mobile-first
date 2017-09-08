@@ -1,0 +1,7 @@
+@import "../vendor/bulma/sass/utilities/_all";
+@import "../vendor/bulma/sass/base/_all";
+@import "../vendor/bulma/sass/elements/button.sass";
+@import 'variables.scss';
+body {
+    background-color: $core-bg
+}
