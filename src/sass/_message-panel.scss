@@ -1,0 +1,43 @@
+.message-panel {
+    position: fixed;
+    top: 5rem;
+    left: 0;
+    right: 0;
+    background-color: #4A4A4A;
+    color: #fafafa;
+    border-radius: 0;
+    z-index: 999;
+    display: flex;
+    align-items: center;
+    padding: 1.25rem 2.5rem 1.25rem 1rem;
+    justify-content: flex-start;
+    .dismiss {
+        font-size: 1.5rem;
+        position: absolute;
+        color: #ffffff;
+        text-align: center;
+        width: 2rem;
+        top: 0.5rem;
+        right: 1rem;
+    }
+    .message-avatar {
+        display: flex;
+        flex-shrink: 1;
+        align-items: center;
+        overflow: hidden;
+        border-radius: 50%;
+        max-width: 50px;
+        max-height: 50px;
+        margin-right: 0.8rem;
+        img {
+            width: 100%;
+        }
+    }
+    .message-author {
+        font-weight: normal;
+    }
+    .message-text {
+        font-weight: lighter;
+        font-size: 0.9rem;
+    }
+}

@@ -1,0 +1,33 @@
+.messages {
+    .panel-icon {
+        border-radius: 50%;
+        overflow: hidden;
+        width: 2.8em;
+        height: 2.8em;
+        flex-shrink: 0;
+    }
+    .panel-block {
+        color: $text;
+        position: relative;
+    }
+    .messages-text {
+        font-weight: lighter;
+    }
+    .messages-meta {
+        position: absolute;
+        right: 0.75rem;
+        font-size: 0.7em;
+        &.meta-time {
+            color: #9F9F9F;
+            top: 0.5rem;
+        }
+        &.meta-new {
+            bottom: 0.5rem;
+        }
+    }
+}
+
+.load-more {
+    margin: 1rem auto 0;
+    text-align: center;
+}

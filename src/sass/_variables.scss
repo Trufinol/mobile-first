@@ -1,11 +1,11 @@
-$core-bg: #c4dba4;
 $blue: #72d0eb;
-// Add pink and its invert
-$pink: #ffb3b3;
-$pink-invert: #fff;
+$red: #D32F2F;
 // 3. Set the derived variables
 // Use the new pink as the primary color
-$primary: $pink;
-$primary-invert: $pink-invert;
-// Use the existing orange as the danger color
-$danger: $orange;
+$primary: $red;
+$primary-invert: #fff;
+$background: #212121;
+// $text: #3d3d3d;
+$text: #fafafa;
+$header-height: 4rem;
+// $background: #616161;

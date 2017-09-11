@@ -1,0 +1,63 @@
+body,
+html {
+    height: 100%;
+}
+
+body {
+    max-width: 768px;
+    margin: 0 auto;
+    background-color: #212121;
+}
+
+h1 {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+main {
+    padding: 0.5rem 0;
+}
+
+main,
+aside {
+    margin-top: ($header-height + 1);
+}
+
+.container {
+    padding: 1rem;
+    // background-color: #212121;
+}
+
+// BANNERS
+.banner-container {
+    // background-color: #424242;
+}
+
+.banner-container .banner:first-child {
+    margin-bottom: 1.5rem;
+}
+
+.banner-container .banner:last-child {
+    margin-top: 1.5rem;
+}
+
+.banner {
+    text-align: center;
+    img {
+        max-width: 85%;
+    }
+}
+
+.panel-block {
+    border-right: none;
+    border-left: none;
+}
+
+.button {
+    font-weight: bold;
+}
+
+.secondary {
+    background: none;
+    color: #fff;
+}

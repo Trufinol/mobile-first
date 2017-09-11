@@ -1,0 +1,23 @@
+.menu {
+    .panel-block {
+        color: $white;
+        font-weight: bolder;
+        font-size: 1.1em;
+        position: relative;
+    }
+    .panel-icon {
+        font-size: 1.1rem;
+    }
+    .icon-right {
+        position: absolute;
+        width: 4rem;
+        background-color: lighten($background, 20%);
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        top: 1px;
+        right: 0;
+        bottom: 1px;
+    }
+}
